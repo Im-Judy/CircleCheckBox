@@ -372,7 +372,7 @@ class _CircleCheckboxState extends State<CircleCheckbox>
         return themeData.disabledColor;
       }
       if (states.contains(MaterialState.selected)) {
-        return themeData.toggleableActiveColor;
+        return themeData.colorScheme.secondary;
       }
       return themeData.unselectedWidgetColor;
     });
